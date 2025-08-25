@@ -1,5 +1,5 @@
-// Simple API URL - use localhost for now
-export const BASE_URL = "http://localhost:4000/api/v1/admin";
+// Production API URL - 35.183.208.209 server
+export const BASE_URL = "http://35.183.208.209/api/v1/admin";
 
 
 
