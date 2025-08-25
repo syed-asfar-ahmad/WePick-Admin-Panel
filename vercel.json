@@ -1,11 +1,12 @@
 {
   "rewrites": [
     {
+      "source": "/api/(.*)",
+      "destination": "http://35.183.208.209/api/v1/admin/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "env": {
-    "VERCEL": "1"
-  }
+  ]
 }
